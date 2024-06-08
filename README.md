@@ -1,18 +1,16 @@
-## Getting Started
+## MCS LMS 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Open Ended Lab Second Semester
 
-## Folder Structure
+## Collaborators
 
-The workspace contains two folders by default, where:
+- `Amna Noor`: amna the great
+- `Sameen Asif`: went to get the milk
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Meanwhile, at the end we will resort to youtube uncle jiski link is [here](https://www.youtube.com/playlist?list=PL-cxzMmn1xXG87ak7josmprqsp3da_Ovk)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+> If you want to contribute, we are accepting chanda to run away from out houses (i speak for myself and amna noor. sameen asif is still getting the milk).
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## GUI
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+404 error not found. sorry sir asif :|
