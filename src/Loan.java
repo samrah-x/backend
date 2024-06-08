@@ -14,13 +14,13 @@ public class Loan {
     private Date dueDate;
     private double fineAmount;
 
-    public Loan (Book book, Member member, Date borrowDate, Date returnDate) {
+    public Loan (Book book, Member member, Date borrowDate) {
         this.book = book;
         this.member = member;
         this.borrowDate = borrowDate;
-        this.returnDate = returnDate;
+        // this.returnDate = returnDate;
         calculateDueDate(borrowDate);
-        this.fineAmount = calculateFine(returnDate); 
+        this.fineAmount = 0.0; 
     }
 
     public void calculateDueDate(Date borrowDate) {
@@ -42,4 +42,12 @@ public class Loan {
         }
     }
 
+    public void setReturnDate(Date returnDate) {
+        this.returnDate = returnDate;
+        this.fineAmount = calculateFine(returnDate); // Recalculate fine upon setting return date
+    }
+
+    public Book getBook() {
+        return this.book;
+    } 
 }

@@ -108,4 +108,8 @@ public class Book extends Item {
         long milliseconds = calculateBorrowDurationInMilliseconds(borrowDate, returnDate);
         return milliseconds / (24 * 60 * 60 * 1000); // Conversion to days
     }
+
+    public boolean isAvailable() {
+        return isAvailable;
+      }
 }
